@@ -33,12 +33,12 @@ Before you begin, ensure you have the following prerequisites:
 
 ## Project Structure
 
-.
-├── `main.tf`            # Main Terraform configuration file
-├── `variables.tf`       # Declare variables used in the configuration
-├── `outputs.tf`         # Define output values for the resources
-├── `provider.tf`        # Define region and secret keys
-├── `terraform.tfvars`   # Input variable values (not committed to version control)
+. <br />
+├── `main.tf`            # Main Terraform configuration file <br />
+├── `variables.tf`       # Declare variables used in the configuration <br />
+├── `outputs.tf`         # Define output values for the resources <br />
+├── `provider.tf`        # Define region and secret keys <br />
+├── `terraform.tfvars`   # Input variable values (not committed to version control) <br />
 └── `README.md`
 
 ## Usage
