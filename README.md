@@ -46,9 +46,9 @@ Before you begin, ensure you have the following prerequisites:
 To deploy the infrastructure defined in this project, follow these steps:
 
 - Review and modify the configuration in main.tf and other relevant files.
-- Run terraform init to initialize the project.
-- Run terraform plan to preview the changes that will be applied.
-- Run terraform apply to create/update the AWS resources.
+- Run `terraform init` to initialize the project.
+- Run `terraform plan` to preview the changes that will be applied.
+- Run `terraform apply` to create/update the AWS resources.
 - To tear down the infrastructure, run terraform destroy when no longer needed.
 
 For more detailed usage instructions, please refer to the Terraform documentation.
