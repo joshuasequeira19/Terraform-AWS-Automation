@@ -46,45 +46,44 @@ Before you begin, ensure you have the following prerequisites:
 <br />├── `outputs.tf`         # Define output values for the resources
 <br />├── `provider.tf`        # Define region and secret keys 
 <br />├── `terraform.tfvars`   # Input variable values (not committed to version control) 
-<br />└── `README.md`
-<br />├── modules
-<br />│ ├── aws_eks
+<br />├── `modules`
+<br />│ ├── `aws_eks`
 <br />│ │ ├── main.tf
 <br />│ │ ├── variables.tf
 <br />│ │ └── output.tf
-<br />│ │ │ ├── aws_eks_nodegroup
+<br />│ │ │ ├── `aws_eks_nodegroup`
 <br />│ │ │ │ ├── main.tf
 <br />│ │ │ │ ├── variables.tf
 <br />│ │ │ │ └── output.tf
-<br />│ ├── aws_elasticIP
+<br />│ ├── `ws_elasticIP`
 <br />│ │ ├── main.tf
 <br />│ │ ├── variables.tf
 <br />│ │ └── output.tf
-<br />│ ├── aws_internetGW
+<br />│ ├── `aws_internetGW`
 <br />│ │ ├── main.tf
 <br />│ │ ├── variables.tf
 <br />│ │ └── output.tf
-<br />│ ├── aws_natGW
+<br />│ ├── `ws_natGW`
 <br />│ │ ├── main.tf
 <br />│ │ ├── variables.tf
 <br />│ │ └── output.tf
-<br />│ ├── aws_route_table
+<br />│ ├── `aws_route_table`
 <br />│ │ ├── main.tf
 <br />│ │ ├── variables.tf
 <br />│ │ └── output.tf
-<br />│ ├── aws_route_table_association
+<br />│ ├── `aws_route_table_association`
 <br />│ │ ├── main.tf
 <br />│ │ ├── variables.tf
 <br />│ │ └── output.tf
-<br />│ ├── aws_subnets
+<br />│ ├── `aws_subnets`
 <br />│ │ ├── main.tf
 <br />│ │ ├── variables.tf
 <br />│ │ └── output.tf
-<br />│ └── aws_vpc
+<br />│ └── `aws_vpc`
 <br />│ ├── main.tf
 <br />│ ├── variables.tf
 <br />│ └── output.tf
-<br />└── README.md # Documentation and project details
+<br />└── `README.md` # Documentation and project details
 
 ## Usage
 
