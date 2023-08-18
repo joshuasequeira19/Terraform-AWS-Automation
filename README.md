@@ -1,6 +1,5 @@
-# Terraform AWS Project
-
-Welcome to the Terraform AWS Project repository! This project aims to showcase how to deploy and manage infrastructure on Amazon Web Services (AWS) using Terraform, an Infrastructure as Code (IaC) tool.
+# Terraform-AWS-Automation
+Welcome to the Terraform-AWS-Automation repository! This project aims to showcase how to deploy and manage infrastructure on Amazon Web Services (AWS) using Terraform, an Infrastructure as Code (IaC) tool.
 
 ## Table of Contents
 - [Introduction](#introduction)
