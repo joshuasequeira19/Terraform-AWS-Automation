@@ -9,11 +9,18 @@ Welcome to the Terraform AWS Project repository! This project aims to showcase h
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
-This project demonstrates the power of using Terraform to create, update, and manage AWS resources in a repeatable and consistent manner. It provides examples of creating various AWS resources such as EC2 instances, VPCs, S3 buckets, and more, using Terraform code.
+This project demonstrates the power of using Terraform to create, update, and manage AWS resources in a repeatable and consistent manner. It provides examples of creating various AWS resources such as 
+- Amazon Elastic Kubernetes Service (Amazon EKS), 
+- ElasticIPs, 
+- Internet Gateway, 
+- NAT Gateway, 
+- route tables, 
+- route table associations, 
+- subnets, 
+and more, using Terraform code.
 
 ## Prerequisites
 
@@ -51,4 +58,8 @@ To deploy the infrastructure defined in this project, follow these steps:
 - Run `terraform apply` to create/update the AWS resources.
 - To tear down the infrastructure, run terraform destroy when no longer needed.
 
-For more detailed usage instructions, please refer to the Terraform documentation.
+For more detailed usage instructions, please refer to the [Terraform documentation](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build).
+
+## Contributing
+
+Contributions to this project are welcome! Feel free to open issues for bug reports, feature requests, or submit pull requests for improvements.
